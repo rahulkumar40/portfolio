@@ -3,8 +3,7 @@ import { MdDarkMode, MdOutlineDarkMode } from "react-icons/md";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 import { NavLink, useNavigate } from "react-router-dom";
 import { AppContext } from "../context/AppContext";
-import img01 from "../assets/img/logoOne.png";
-import img02 from "../assets/img/logoTwo.png";
+import img01 from "../assets/img/herol.png";
 
 function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,7 +16,7 @@ function NavBar() {
         {/* Logo */}
         <img
           className="cursor-pointer w-auto h-[3rem] object-center rounded "
-          src={ color ? img01: img02}
+          src={img01}
           alt="Logo"
           onClick={() => navigate("/")}
         />
