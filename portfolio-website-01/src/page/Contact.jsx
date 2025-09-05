@@ -22,7 +22,7 @@ function Contact() {
   // ✅ Form Submit
   const onSubmit = async (data) => {
     try {
-      const res = await axios.post("http://localhost:3000/api/port/mailSend", data);
+      const res = await axios.post("https://porserver.onrender.com/api/port/mailSend", data);
       toast.success(res.data.message || "Message sent successfully! 🚀", { position: "top-right" });
       reset();
     } catch (err) {

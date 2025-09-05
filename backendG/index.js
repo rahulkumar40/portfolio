@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 connection();
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://rahulportfolio-l8wg.onrender.com",
     methods:["GET","POST", "PUT", "DELETE"],
     credentials:true
 }))
