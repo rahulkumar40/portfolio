@@ -19,7 +19,7 @@ function ProjectCard({ data }) {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.2, delay: 0.2 * data.id }}
       viewport={{ once: true, amount: 0.1 }}
-      className={`rounded-xl shadow-md p-2 md:p-4 flex gap-4 transition-all duration-300 
+      className={`rounded-xl shadow-md p-2 md:p-4 flex gap-4 transition-all duration-300 md:flex-row sm:flex-col flex-col
       ${data.id % 2 === 0 ? "flex-rown-reverse" : ""} ${
         color ? "border-b-2" : ""
       }`}

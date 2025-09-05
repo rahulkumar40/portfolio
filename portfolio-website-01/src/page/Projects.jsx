@@ -52,7 +52,7 @@ function Projects() {
     className="grid grid-cols-1 gap-6 w-full "
     initial="hidden"
     whileInView="visible"
-    viewport={{ once: true, amount: 0.3 }}
+    viewport={{ once: true, amount: 0.09 }}
     variants={{
       hidden: { opacity: 0, y: 50 },
       visible: {
@@ -88,7 +88,7 @@ function Projects() {
     className="flex flex-col gap-10 w-full"
     initial="hidden"
     whileInView="visible"
-    viewport={{ once: true, amount: 0.3 }}
+    viewport={{ once: true, amount: 0.09 }}
     variants={{
       hidden: { opacity: 0, y: 50 },
       visible: {
@@ -107,13 +107,7 @@ function Projects() {
           hidden: { opacity: 0, y: 50 },
           visible: { opacity: 1, y: 0 },
         }}
-        className={`w-full rounded-lg shadow-lg p-4 ${
-          index % 2 === 0
-            ? "bg-gradient-to-r from-gray-200 to-white"
-            : "bg-gradient-to-r from-white to-gray-200"
-        } ${
-          color ? "text-black" : "text-gray-900"
-        } transition-all duration-300`}
+        className={`w-full rounded-lg shadow-lg p-4  transition-all duration-300`}
       >
         <ProjectCard data={data} />
       </motion.div>
