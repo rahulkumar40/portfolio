@@ -3,7 +3,7 @@ import { MdDarkMode, MdOutlineDarkMode } from "react-icons/md";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 import { NavLink, useNavigate } from "react-router-dom";
 import { AppContext } from "../context/AppContext";
-import img01 from "../assets/img/herol.png";
+import img01 from "../assets/img/hero.png";
 
 function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { AppContext } from "../context/AppContext";
-import profileImg from "../assets/img/heroI.png";
+import profileImg from "../assets/img/hero.png";
 import { motion } from "framer-motion";
 import SkillsSection from "./SkillSection";
 import TechStackSlider from "../component/TechStackSlider";

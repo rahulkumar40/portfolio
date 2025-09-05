@@ -1,4 +1,4 @@
-import image_01 from './image01.png';
+
 // const url = 'http://brilliant-heliotrope-ccc478.netlify.app'
 const url = "#";
 
