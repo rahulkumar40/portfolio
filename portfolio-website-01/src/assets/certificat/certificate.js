@@ -7,24 +7,12 @@ import UniversMM1 from './UniversMM1.jpg';
 import UniversMM2 from './UniversMM2.jpg';
 import javaThon from './javaThon.jpeg';
 import codeSoftInter from './codeSoftInter.png';
+import html_css from './html_css.png'
+import iit_workshop from './iit_workshop.png'
+
 const certificateData = [
   {
     id: 1,
-    img: codeSoftInter,
-    title: "Java Internship Certificate",
-    description: "Java backend development and object-oriented programming at Codesoft.",
-    org: "Codesoft",
-    body: [
-      "Completed a 1-month internship focused on core Java and backend systems.",
-      "Worked on object-oriented programming: inheritance, abstraction, and polymorphism.",
-      "Built console-based apps using Java and applied exception handling techniques.",
-      "Used basic data structures like arrays, stacks, and queues for logic implementation.",
-      "Enhanced debugging skills through regular mentor-led code reviews."
-    ],
-    date: "15-03-2024"
-  },
-  {
-    id: 2,
     img: javaScriptCertification,
     title: "Frontend Development",
     description: "Responsive web design using HTML, CSS, JavaScript, and React.",
@@ -39,7 +27,7 @@ const certificateData = [
     date: "10-05-2024"
   },
   {
-    id: 3,
+    id: 2,
     img: javaDSA,
     title: "Decode DSA 2.0",
     description: "Data Structures and Algorithm mastery using Java.",
@@ -54,7 +42,7 @@ const certificateData = [
     date: "20-10-2023"
   },
   {
-    id: 4,
+    id: 3,
     img: SQLCertification_01,
     title: "Basic SQL Certification",
     description: "SQL fundamentals including queries, joins, and filtering.",
@@ -67,6 +55,21 @@ const certificateData = [
       "Applied concepts in daily practice sets and timed quizzes."
     ],
     date: "05-07-2023"
+  },
+    {
+    id: 4,
+    img: codeSoftInter,
+    title: "Java Internship Certificate",
+    description: "Java backend development and object-oriented programming at Codesoft.",
+    org: "Codesoft",
+    body: [
+      "Completed a 1-month internship focused on core Java and backend systems.",
+      "Worked on object-oriented programming: inheritance, abstraction, and polymorphism.",
+      "Built console-based apps using Java and applied exception handling techniques.",
+      "Used basic data structures like arrays, stacks, and queues for logic implementation.",
+      "Enhanced debugging skills through regular mentor-led code reviews."
+    ],
+    date: "15-03-2024"
   },
   {
     id: 5,
@@ -142,7 +145,34 @@ const certificateData = [
       "Developed a habit of writing structured code and comments under exam settings."
     ],
     date: "15-09-2023"
-  }
+  },
+  {
+  "id": 10,
+  "img": html_css,
+  "title": "HTML and CSS Certification",
+  "description": "Certificate of participation for successfully completing the HTML & CSS course as part of the Cisco thingQbator program.",
+  "org": "Cisco thingQbator (in partnership with NASSCOM Foundation)",
+  "body": [
+    "Learned to structure web pages using HTML.",
+    "Mastered styling and layout of web content with CSS.",
+    "Gained hands-on experience in front-end web development.",
+    "Participated in the final evaluation of the Cisco thingQbator program."
+  ],
+  "date": "2023-09-15"
+},
+{
+  "id": 11,
+  "img": iit_workshop,
+  "title": "Virtual Labs Workshop Certification",
+  "description": "Certificate of participation for a workshop on Virtual Labs, organized by the Department of Civil Engineering at Maharishi Markandeshwar University.",
+  "org": "Maharishi Markandeshwar University",
+  "body": [
+    "Participated in a workshop on **Virtual Labs** under the National Mission on Education Through ICT (Ministry of Education, Govt. of India).",
+    "Gained practical experience with a government initiative aimed at improving education through technology.",
+    "Engaged with a workshop conducted by **Virtual Labs, IIT Roorkee**."
+  ],
+  "date": "2025-01-22"
+}
 ];
 
 export default certificateData;
