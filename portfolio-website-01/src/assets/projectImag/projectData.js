@@ -54,7 +54,7 @@ const projectDatas = [
     desc: "A modern news aggregation web app where users can browse trending headlines by category (tech, sports, politics, etc.) fetched from an API with search and filter options.",
     teachStack: "React, Tailwind CSS, News API",
     youtubeId: "hTCfJrubVf8",
-    gitHubLink: url,
+    gitHubLink: "https://github.com/rahulkumar40/Web_DevelopmentT/tree/main/99-news-app-project",
     liveDemo: url,
   },
 ];
