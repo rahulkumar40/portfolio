@@ -53,7 +53,7 @@ const projectDatas = [
     name: "News Aggregator App",
     desc: "A modern news aggregation web app where users can browse trending headlines by category (tech, sports, politics, etc.) fetched from an API with search and filter options.",
     teachStack: "React, Tailwind CSS, News API",
-    youtubeId: "1_NxiMgxo2A",
+    youtubeId: "hTCfJrubVf8",
     gitHubLink: url,
     liveDemo: url,
   },
