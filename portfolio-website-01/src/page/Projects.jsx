@@ -52,7 +52,7 @@ function Projects() {
     className="grid grid-cols-1 gap-6 w-full "
     initial="hidden"
     whileInView="visible"
-    viewport={{ once: true, amount: 0.09 }}
+    viewport={{ once: true, amount: 0.05 }}
     variants={{
       hidden: { opacity: 0, y: 50 },
       visible: {
@@ -88,7 +88,7 @@ function Projects() {
     className="flex flex-col gap-10 w-full"
     initial="hidden"
     whileInView="visible"
-    viewport={{ once: true, amount: 0.09 }}
+    viewport={{ once: true, amount: 0.05 }}
     variants={{
       hidden: { opacity: 0, y: 50 },
       visible: {
