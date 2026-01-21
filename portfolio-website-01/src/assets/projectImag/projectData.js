@@ -123,7 +123,7 @@ export  const javaScriptProject = [
     Seamlessly designed with user-friendly controls, this project combines effective UI layout with third-party library integration to deliver practical functionality.
 `,
     teachStack:`HTML, CSS , JavaScript`,
-    youtubeId:"YRHR6WNsF4I",
+    youtubeId:YRHR6WNsF4I,
     gitHubLink:'https://github.com/rahulkumar40/javaScript/tree/main',
     liveDemo : url
     },
