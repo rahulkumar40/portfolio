@@ -127,6 +127,18 @@ export  const javaScriptProject = [
     gitHubLink:'https://github.com/rahulkumar40/javaScript/tree/main',
     liveDemo : url
     },
+   { id: 20,
+name: "Notes App with LocalStorage 📝",
+desc: `
+A fully functional Notes App built using HTML, CSS, and JavaScript that allows users to create, edit, and delete notes in real time. The app uses localStorage to persist notes, ensuring data remains saved even after refreshing or closing the browser.
+
+This project focuses on improving user interaction, efficient data handling, and building interactive web applications with real-world persistence.
+`,
+teachStack: "HTML, CSS, JavaScript",
+youtubeId: "1_NxiMgxo2A",
+gitHubLink: "https://lnkd.in/g98zuusp",
+liveDemo: "#"
+}
 //     {
 //     id:7,
 //     name:"Interactive Calculator App | Frontend Mini Project 🧮 ",
