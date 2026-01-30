@@ -8,6 +8,7 @@ import Contact from "./page/Contact";
 import NavBar from "./component/NavBar";
 import Footer from "./page/Footer";
 import { AppContext } from "./context/AppContext";
+import SingleProject from "./component/SingleProject";
 const Certifications = lazy(() => import("./page/Certifications"));
 const CertificationCard = lazy(() => import("./component/CertificationCard"));
 function App() {
@@ -29,6 +30,10 @@ function App() {
           {/* <Route path="/certification" element={<Certifications />}></Route> */}
           <Route path="/contact" element={<Contact />}></Route>
           {/* <Route path="/certification/:id" element={<CertificationCard />} /> */}
+          <Route
+            path="/single-project/:id"
+            element={<SingleProject/> }
+          />
 
           <Route
             path="/certification"

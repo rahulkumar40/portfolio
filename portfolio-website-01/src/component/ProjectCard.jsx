@@ -4,7 +4,7 @@ import { AppContext } from "../context/AppContext";
 import { motion } from "framer-motion";
 import LiteYouTubeEmbed from "react-lite-youtube-embed";
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
-
+import { Link } from "react-router-dom";
 function ProjectCard({ data }) {
   const { color } = useContext(AppContext);
 
@@ -37,7 +37,14 @@ function ProjectCard({ data }) {
       {/* Project Description */}
       <div className="flex flex-col justify-between md:w-1/2 px-1 md:px-3 py-2 space-y-3">
         <div>
-          <h3 className="text-xl md:text-2xl font-bold mb-1">{data.name}</h3>
+          <h3 className="text-xl md:text-2xl font-bold mb-1">
+            <Link
+              to={`/single-project/${data.id}`}
+              className="mt-4 inline-block text-indigo-600 font-semibold hover:underline"
+            >
+              {data.name}
+            </Link>
+          </h3>
           <p className="text-sm md:text-base mb-2 line-clamp-4">{data.desc}</p>
           <p className="text-xs italic text-gray-500">{data.teachStack}</p>
         </div>

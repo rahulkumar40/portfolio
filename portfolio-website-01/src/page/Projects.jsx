@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { AppContext } from "../context/AppContext";
-import projectDatas from "../assets/projectImag/projectData";
+import {projectDatas} from "../assets/projectImag/projectData";
 import ProjectCard from "../component/ProjectCard";
 import { motion } from "framer-motion";
 import { FaProjectDiagram } from "react-icons/fa";
