@@ -24,8 +24,8 @@ Key features include profile customization (bio, social links, profile image), b
 Future upgrades include rich-text editing, AI-powered content automation, smart blog recommendations, and a notification system to enhance user engagement and productivity.
 `,
 teachStack: "MongoDB, Express.js, React.js, Node.js, JWT, Bcrypt",
-youtubeId: "ADD_YOUR_VIDEO_ID_HERE",
-gitHubLink: "ADD_YOUR_GITHUB_LINK_HERE",
+youtubeId: "mrYmfKPcFFU",
+gitHubLink:url,
 liveDemo: "ADD_YOUR_LIVE_DEMO_URL_HERE"
 }
   ,{
