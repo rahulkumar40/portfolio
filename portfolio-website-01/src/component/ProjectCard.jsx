@@ -17,7 +17,7 @@ function ProjectCard({ data }) {
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.2, delay: 0.2 * data.id }}
+      transition={{ duration: 0.2, delay: 0.3 }}
       viewport={{ once: true, amount: 0.1 }}
       className={`rounded-xl shadow-md p-2 md:p-4 flex gap-4 transition-all duration-300 md:flex-row sm:flex-col flex-col
       ${data.id % 2 === 0 ? "flex-rown-reverse" : ""} ${
