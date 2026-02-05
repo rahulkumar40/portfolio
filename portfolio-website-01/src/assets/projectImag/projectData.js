@@ -1,6 +1,6 @@
 
 // const url = 'http://brilliant-heliotrope-ccc478.netlify.app'
-const url = "#";
+const url = "https://github.com/rahulkumar40";
 
 export const projectDatas = [
   {
@@ -27,9 +27,28 @@ teachStack: "MongoDB, Express.js, React.js, Node.js, JWT, Bcrypt",
 youtubeId: "mrYmfKPcFFU",
 gitHubLink:url,
 liveDemo: "ADD_YOUR_LIVE_DEMO_URL_HERE"
-}
-  ,{
-    id: 3,
+},
+ {
+  id: 3,
+name: "EduWave School Management Website (MERN Stack) 🎓",
+desc: `
+EduWave School is a modern full-stack school management and digital admission platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js). The platform focuses on delivering a world-class educational experience through a beautiful, responsive interface and secure backend systems for students, parents, and administrators.
+
+The website includes multiple sections such as Home, About, Admissions, Facilities, Gallery, and Contact, each designed to provide a seamless user experience. The landing page features a hero section, principal’s message, academic highlights, facilities, testimonials, and a strong call-to-action for admissions.
+
+The platform also includes a complete digital admission workflow, secure authentication system, and multiple forms such as login, signup, admission, and contact, all connected to the backend database with proper validation and security.
+
+Key features include responsive navigation, academic program listings, school statistics, campus facilities, testimonials, and categorized media galleries. The system is built with scalability, security, and real-world usability in mind.
+
+This project demonstrates full-stack development skills, REST API integration, JWT-based authentication, and real-world form handling for institutional use cases.
+`,
+teachStack: "MongoDB, Express.js, React.js, Node.js, JWT, REST APIs",
+youtubeId: "GI4Bb2LUTNU",
+gitHubLink: url,
+liveDemo: "GI4Bb2LUTNU"
+
+ }, ,{
+    id: 4,
     name: "Job Portal Website",
     desc: "A complete MERN stack Job Portal with separate dashboards for recruiters and job seekers. Features include job posting, search & filter, resume upload, application tracking, and user authentication.",
     teachStack: "React, Tailwind CSS, Node.js, Express.js, MongoDB, JWT",
@@ -38,25 +57,7 @@ liveDemo: "ADD_YOUR_LIVE_DEMO_URL_HERE"
     liveDemo: url,
   },
   {
-    id: 4,
-    name: "School Management System",
-    desc: "A comprehensive school management application for handling student records, teacher allocations, attendance tracking, assignments, and class routines with role-based dashboards.",
-    teachStack: "MERN Stack, JWT, Redux, Tailwind CSS",
-    youtubeId: "1_NxiMgxo2A",
-    gitHubLink: url,
-    liveDemo: url,
-  },
-  {
     id: 5,
-    name: "AI Mock Interview App",
-    desc: "This application simulates AI-based technical and HR interviews. Users receive random questions, respond via voice/text, and receive performance feedback. Ideal for job prep.",
-    teachStack: "React, Express, Node.js, MongoDB, OpenAI API, Web Speech API",
-    youtubeId: "1_NxiMgxo2A",
-    gitHubLink: url,
-    liveDemo: url,
-  },
-  {
-    id: 6,
     name: "Weather App",
     desc: "A responsive frontend weather app where users can search any city to get real-time weather conditions using a public API. It features dark/light mode and dynamic icons.",
     teachStack: "HTML, CSS, JavaScript, OpenWeather API",
