@@ -154,6 +154,7 @@ Deployment steps:
 ## 🔮 Future Improvements
 
 * Dark/light theme toggle
+![Resume Section](screenshort/Screenshot%20(183).png)
 * Blog section for technical articles
 * Project filtering by tech stack
 * Animated transitions
